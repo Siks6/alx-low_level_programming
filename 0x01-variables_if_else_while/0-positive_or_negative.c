@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - assigns random number to n everytime
+ * executes and prints
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -21,8 +21,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else(n < 0);
-
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
