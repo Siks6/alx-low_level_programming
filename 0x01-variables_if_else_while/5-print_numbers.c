@@ -5,7 +5,7 @@
  *
  * This program prints base numbers of 10 starting from zero
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,8 +13,8 @@ int main(void)
 
 	for (n = 0; n < 10; n++)
 	{
-		printf("%d ", n);
+		putchar('0' + n);
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
