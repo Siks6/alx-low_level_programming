@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Entry
+ * main - Entry point
  *
- * This program prints base numbers of 10 starting from zero
+ * prints numbers 0 up to 9
  *
  * Return: Always 0 (Success)
  */
@@ -15,6 +15,6 @@ int main(void)
 	{
 		putchar('0' + n);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
