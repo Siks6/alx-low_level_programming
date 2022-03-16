@@ -1,7 +1,7 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
-int _putcha(char);
+int _putchar(char);
 
 #endif
 
