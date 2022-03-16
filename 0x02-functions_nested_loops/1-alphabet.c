@@ -1,21 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 #include <unistd.h>
 
 /**
- * main - entry 
+ * Print_alphabet - entry 
  *
  * programme that prints out the alphabet
  *
- * Return: 0 Always (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int x;
+	char x;
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		_putchar(x);
 	}
 	_putchar('\n');
-	return (0);
 }
