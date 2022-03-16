@@ -2,11 +2,9 @@
 #include <unistd.h>
 
 /**
- * Print_alphabet - entry
- *
- * Description: A programme that prints out the alphabet in lower case.
+ * print_alphabet - Prints alphabet in the lowercase.
  */
-void print_alphabet(void) /*Prints out alphabet*/
+void print_alphabet(void)
 {
 	char x;
 
