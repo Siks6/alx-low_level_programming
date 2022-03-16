@@ -2,15 +2,15 @@
 #include <unistd.h>
 
 /**
- * Print_alphabet - entry 
+ * Print_alphabet - entry
  *
- * programme that prints out the alphabet
- *
+ * Description: A programme that prints out the alphabet in lower case.
  */
-void print_alphabet(void)
+void print_alphabet(void) /*Prints out alphabet*/
 {
 	char x;
-	for (x = 'A'; x <= 'Z'; x++)
+
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
 	}
