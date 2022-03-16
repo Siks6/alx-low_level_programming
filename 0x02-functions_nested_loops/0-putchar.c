@@ -1,22 +1,22 @@
-#include <unistd.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - entry point
- * writes out _putchar to stdout, followed by a new line
+ * main - putchar prints the character
  *
- * Return always: Always 0 (Success)
- *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char word[8] = "putchar\n";
-	int i;
+	char c[8] = "_putchar\n";
+	int i = 0;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(word[i]);
+		_putchar(c[8]);
 	}
 	return (0);
+
+
 }
+
