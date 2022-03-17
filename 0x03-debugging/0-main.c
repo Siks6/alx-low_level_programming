@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - test the function
+ * main - tests function ifprints interger or not
  * Return: 0
+ *
  */
 int main(void)
 {
@@ -13,4 +14,3 @@ int main(void)
 
 	return (0);
 }
-
