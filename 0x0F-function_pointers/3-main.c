@@ -6,7 +6,7 @@
 /**
  * main - program to perform simple operation
  * @argc: argument count
- * @argv array of arguments
+ * @argv: array of arguments
  * Return: exits 0 normally, 98 on argc error, 99 on illegal
  * oprator
  */
