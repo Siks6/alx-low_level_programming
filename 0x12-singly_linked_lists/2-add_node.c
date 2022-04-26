@@ -5,6 +5,7 @@
  * @head: double pointer to list_t list
  * @str: new string to add to node.
  *
+ * Return: the address of the new element, or NULL if fails.
  */
 list_t *add_node(list_t **head, const char *str)
 {
