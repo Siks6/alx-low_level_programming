@@ -2,7 +2,7 @@
 
 /**
  * print_listint - prints all elements of list
- * @h: first element of list 
+ * @h: first element of list
  *
  * Return: the number of nodes
  */
