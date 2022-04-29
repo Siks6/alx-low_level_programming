@@ -16,8 +16,8 @@ int main(void)
 	add_nodeint_end(&head, 4);
 	add_nodeint_end(&head, 98);
 	add_nodeint_end(&head, 402);
-	add_nodeint_end(&head,1024);
+	add_nodeint_end(&head, 1024);
 	print_listint(head);
-	
+
 	return (0);
 }
